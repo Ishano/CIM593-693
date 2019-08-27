@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Pizza Form</title>
+    <style media="screen">
+      p, h1 { text-align: center}
+      </style>
   </head>
   <body>
 
@@ -28,11 +31,11 @@ placeholder="1234 Street City, ST, Zip">
 </p>
 
 <p>
-<label for="">Pizza toppings (Check all that apply) </label>
+<label for="toppings">Pizza toppings (Check all that apply) </label>
 <br>
-<input type="checkbox" name="topping" value="Cheese"> Cheese<br>
-<input type="checkbox" name="topping" value="Mushrooms"> Mushrooms<br>
-<input type="checkbox" name="topping" value="Pepperoni"> Pepperoni<br>
+<input type="checkbox" name="topping[]" value="Cheese"> Cheese<br>
+<input type="checkbox" name="topping[]" value="Mushrooms"> Mushrooms<br>
+<input type="checkbox" name="topping[]" value="Pepperoni"> Pepperoni<br>
 </p>
 
 <p>
