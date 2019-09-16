@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
     <meta charset="utf-8">
     <title>Pizza Form</title>
     <style media="screen">
@@ -29,6 +30,25 @@ placeholder="Smith">
 <input type="text" name="address" value=""
 placeholder="1234 Street City, ST, Zip">
 </p>
+<p>
+<label for="city">City: </label>
+<input type="text" name="city" value=""
+placeholder="">
+</p>
+
+<p>
+<label for="state">State: </label>
+<input type="text" name="state" value=""
+placeholder="ST">
+</p>
+
+<p>
+<label for="zip">Zip: </label>
+<input type="text" name="state" value=""
+placeholder="111111">
+</p>
+
+
 
 <p>
 <label for="toppings">Pizza toppings (Check all that apply) </label>
@@ -44,11 +64,21 @@ placeholder="1234 Street City, ST, Zip">
 <input type="radio" name="size" value="large"> Large<br>
 </p>
 
+<label for="Amount of cheese">Amount of cheese</label>
+<br>
+<select name="Amount of cheese" id="">
+  <option value="Regular">Regular</<option value=""></option>
+  <option value="Extra">Extra</<option value=""></option>
+  </select>
+  <br>
+
 <p>
   <label for="comments">Comments</label>
   <br>
   <textarea name="comments" id="" cols="30" rows="10"></textarea>
   </p>
+
+
 
   <p>
     <input type="submit" value="Place Order">
